@@ -1,0 +1,25 @@
+# .NET build
+**/bin/
+**/obj/
+
+# IDEs
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs / temp
+*.log
+[Tt]est[Rr]esult*/
+*.cache/
+*.tmp
+
+# Local config (optional—ignore if it may contain secrets)
+Api/appsettings.Development.json
+
+# Dev databases (if you create any)
+*.db
+*.sqlite
+*.sqlite3
